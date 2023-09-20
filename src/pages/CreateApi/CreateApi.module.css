@@ -1,0 +1,95 @@
+.wrapper {
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.createApi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+.estimatePrice {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.est {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.period {
+  color: #333;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background: #000;
+}
+
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .title {
+    font-size: 36px;
+  }
+  .estimatePrice {
+    font-size: 28px;
+  }
+  .est {
+    font-size: 18px;
+  }
+  .period {
+    font-size: 16px;
+  }
+  .button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .title {
+    font-size: 30px;
+  }
+}

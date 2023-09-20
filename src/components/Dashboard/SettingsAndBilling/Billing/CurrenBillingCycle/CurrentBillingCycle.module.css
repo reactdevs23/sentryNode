@@ -1,0 +1,141 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+.text {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  background: #fff;
+  scrollbar-width: thin;
+  scrollbar-color: #abde3d rgba(250, 250, 250, 0.2);
+
+  border-radius: 20px 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.row:last-child .item {
+  border-bottom: none;
+}
+
+.heading,
+.item {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  padding: 16px 30px;
+  white-space: nowrap;
+}
+.viewUsage {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.item {
+  border-bottom: 1px solid #e3e8ef;
+}
+.item:first-child,
+.heading:first-child {
+  padding-left: 45px;
+}
+.heading:first-child {
+  border-radius: 20px 0 0 0;
+}
+.heading:last-child {
+  border-radius: 0 20px 0 0;
+}
+
+.row:last-child .item {
+  padding-bottom: 30px;
+}
+.heading {
+  padding: 16px 30px;
+  background: #dce4f1;
+}
+
+.projectImageAndName {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.projectImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 520px) {
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .text,
+  .heading,
+  .item,
+  .viewUsage {
+    font-size: 16px;
+  }
+  .projectImage {
+    width: 30px;
+    height: 30px;
+  }
+  .item:first-child,
+  .heading:first-child {
+    padding-left: 30px;
+  }
+}
+
+/* Firefox */
+
+/* Chrome, Edge, and Safari */
+.tableContainer::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background: rgba(250, 250, 250, 0.2);
+  border-radius: 5px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background: #abde3d;
+  border-radius: 100vh;
+  border: none;
+  border-radius: 5px;
+}

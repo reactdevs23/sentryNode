@@ -1,0 +1,149 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-radius: 40px;
+
+  background: #000;
+  padding: 60px;
+}
+.textContainer {
+  max-width: 750px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 122.523%; /* 73.514px */
+}
+.tagline {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.523%; /* 45.757px */
+  max-width: 500px;
+}
+.button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 67.974px;
+  border: 1px solid #fff;
+  background: #000;
+
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 18px 40px;
+  margin-top: 10px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  max-width: 450px;
+  width: 100%;
+  margin-top: -80px;
+}
+@media only screen and (max-width: 1440px) {
+  .wrapper {
+    grid-template-columns: 1fr 0.9fr;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .wrapper {
+    grid-template-columns: 1fr 0.8fr;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    grid-template-columns: 1fr 0.7fr;
+  }
+
+  .image {
+    margin: 0;
+  }
+
+  .title {
+    font-size: 46px;
+  }
+  .tagline {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    padding: 50px;
+  }
+  .textContainer {
+    gap: 12px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    padding: 30px;
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title,
+  .tagline {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .image {
+    max-width: 250px;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .title {
+    font-size: 30px;
+  }
+  .tagline {
+    font-size: 16px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+}

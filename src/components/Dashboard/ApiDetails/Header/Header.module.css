@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 30px;
+}
+.iconAndInfo {
+  display: flex;
+
+  gap: 10px;
+}
+
+.iconContainer {
+  min-width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  margin-top: 5px;
+}
+.icon {
+  font-size: 34px;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.details {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.status {
+  color: #0b7656;
+  font-family: Inter;
+  font-size: 22.472px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 14.045px;
+  background: rgba(49, 206, 159, 0.2);
+  padding: 6px 12px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  margin-left: auto;
+}
+.circle {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #1cc894;
+}
+.arrow {
+  font-size: 16px;
+  color: rgba(11, 118, 86, 1);
+}
+@media only screen and (max-width: 1500px) {
+  .iconContainer {
+    min-width: 55px;
+    height: 55px;
+  }
+  .icon {
+    font-size: 28px;
+  }
+  .icon {
+    font-size: 34px;
+    color: #fff;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+  .details {
+    font-size: 18px;
+  }
+  .status {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .iconContainer {
+    min-width: 50px;
+    height: 50px;
+  }
+  .icon {
+    font-size: 24px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+  .details {
+    font-size: 18px;
+  }
+  .status {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .iconAndInfo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .details {
+    font-size: 14px;
+  }
+}

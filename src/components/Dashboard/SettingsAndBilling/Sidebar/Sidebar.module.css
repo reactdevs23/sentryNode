@@ -1,0 +1,107 @@
+.sidebar {
+  border-radius: 20px;
+  border-right: 1px solid #e3e8ef;
+  background: #f1f4f9;
+
+  width: 100%;
+}
+
+.navIcon {
+  color: rgba(106, 109, 149, 1);
+}
+
+.navActive::before,
+.navActive::after {
+  background: #2f39bf;
+}
+.navItems {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 24px 24px;
+}
+
+.navIcon {
+  color: #000;
+  font-size: 28px;
+  line-height: 133.333%;
+}
+.navItem {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+}
+
+.navActive {
+  color: #fff;
+  border-radius: 50px;
+  background: #000;
+}
+.navActive .navIcon {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1550px) {
+  .sidebar {
+    position: absolute;
+    transform: translateX(-150%);
+    transition: 0.3s;
+    left: 0;
+    top: 0;
+
+    z-index: 1;
+    max-width: 300px;
+    box-shadow: 5px 4px 50px 5px rgba(0, 0, 0, 0.4);
+  }
+  .showSidebar {
+    transform: translateX(0%);
+
+    transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .sidebar {
+    width: 270px;
+  }
+  .teamContainer {
+    padding: 25px 24px;
+  }
+  .logo {
+    width: 46px;
+    height: 46px;
+  }
+  .teamName {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .navItems,
+  .navHeader {
+    padding: 20px 24px;
+  }
+  .projects {
+    padding-bottom: 10px;
+  }
+  .navItem,
+  .project {
+    font-size: 16px;
+    padding: 13px 20px;
+  }
+  .projectImge {
+    width: 36px;
+    height: 36px;
+  }
+  .support,
+  .documentation {
+    font-size: 16px;
+  }
+}

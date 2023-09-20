@@ -1,0 +1,91 @@
+.locationContainer {
+  border-radius: 14px;
+  border-right: 1px solid #e3e8ef;
+  background: #f1f4f9;
+  padding: 24px;
+  padding-bottom: 30px;
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.locations {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+}
+.location {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #fff;
+  padding: 20px 18px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.selectedLocation {
+  border: 1px solid #000;
+}
+
+.flag {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@media only screen and (max-width: 991px) {
+  .locationContainer {
+    padding: 18px;
+    padding-bottom: 30px;
+  }
+  .title {
+    padding-bottom: 18px;
+  }
+  .locations {
+    gap: 12px;
+  }
+  .location {
+    padding: 18px 12px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .locations {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .locations {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .locationContainer {
+    padding: 12px;
+    padding-top: 18px;
+    padding-bottom: 30px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+}

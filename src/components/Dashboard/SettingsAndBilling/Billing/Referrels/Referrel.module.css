@@ -1,0 +1,106 @@
+.wrapper {
+  padding: 24px;
+  border-radius: 20px;
+  border-right: 1px solid #e3e8ef;
+  background: #f1f4f9;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+
+.text {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.learnMore {
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.referelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  border: 1px solid #e3e8ef;
+  background: #fff;
+  padding: 16px 23px;
+
+  max-width: 600px;
+  width: 100%;
+}
+
+.refferel {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+
+  border-radius: 50px;
+}
+
+.copyIcon {
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+}
+.copied {
+  position: relative;
+}
+.copied::after {
+  content: "Copied";
+  font-size: 12px;
+  font-family: Inter;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #d3d4d9;
+  padding: 5px 5px;
+  border-radius: 4px;
+  color: #000;
+}
+@media only screen and (max-width: 991px) {
+  .referelContainer {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    padding: 15px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+  .referelContainer {
+    padding: 7px 12px;
+  }
+
+  .refferel {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .wrapper {
+    padding: 15px 10px;
+  }
+}

@@ -1,0 +1,265 @@
+.operatingSystemContainer {
+  border-radius: 14px;
+  border-right: 1px solid #e3e8ef;
+  background: #f1f4f9;
+  padding: 24px;
+  padding-bottom: 30px;
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.operatingSystems {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+}
+.operatingSystem {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #fff;
+  padding: 20px 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+}
+.selectedOs {
+  border: 1px solid #000;
+}
+
+.flag {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.dropdownWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  padding-top: 40px;
+}
+.label {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.versionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  padding-right: 24px;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #e3e8ef;
+  background: #fff;
+}
+.version {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 18px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.arrow {
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + 5px);
+  left: 0;
+  min-width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--stroke, #e3e8ef);
+  background: #fff;
+  box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.dropdownItem {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 28px;
+
+  cursor: pointer;
+}
+.dropdownItem:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+.dropdownItem:last-child {
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+.dropdownItem {
+  transition: 0.3s;
+}
+.dropdownItem:hover {
+  background: #f1f4f9;
+}
+.dropdownContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.icon {
+  width: 24px;
+}
+.features {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.feature {
+  border-radius: 10px;
+  background: #f1f4f9;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 10px;
+}
+.deploysIn {
+  color: #210b76;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: #d9d5f4;
+  padding: 6px 10px;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .operatingSystemContainer {
+    padding: 18px;
+    padding-bottom: 30px;
+  }
+  .title {
+    padding-bottom: 18px;
+  }
+  .operatingSystems {
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .operaingSystem {
+    padding: 18px 12px;
+  }
+
+  .name,
+  .version,
+  .dropdownItem {
+    font-size: 18px;
+  }
+  .version {
+    padding: 10px 10px;
+  }
+  .dropdownItem {
+    padding: 15px 20px;
+  }
+  .features {
+    display: none;
+  }
+
+  .deploysIn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .operatingSystems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 520px) {
+  .operatingSystemContainer {
+    padding: 12px;
+    padding-top: 18px;
+    padding-bottom: 30px;
+  }
+
+  .name,
+  .version,
+  .dropdownItem {
+    font-size: 16px;
+  }
+
+  .dropdown {
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+  .dropdownContainer {
+    border-radius: 10px;
+  }
+  .inputContainer {
+    padding-right: 14px;
+  }
+  .input {
+    padding: 7px 8px;
+    font-size: 16px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .dropdownItem {
+    padding: 10px 18px;
+  }
+
+  .arrow {
+    font-size: 18px;
+  }
+}

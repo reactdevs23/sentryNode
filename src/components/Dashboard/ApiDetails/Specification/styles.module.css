@@ -1,0 +1,171 @@
+.titleContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.arrow {
+  font-size: 28px;
+  color: #000;
+  cursor: pointer;
+}
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 25px 0;
+  padding-top: 30px;
+}
+.spaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+}
+.tagline,
+.key {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.id {
+  display: flex;
+
+  gap: 8px;
+}
+.valueContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo,
+.flag {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.projectImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 11px;
+}
+.value {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: auto;
+  word-break: break-all;
+}
+.serverIcon {
+  font-size: 24px;
+}
+.copyIcon {
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 3px;
+}
+.copied {
+  position: relative;
+}
+.copied::after {
+  content: "Copied";
+  font-size: 12px;
+  font-family: Inter;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #d3d4d9;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: #000;
+}
+.viewSshkeyButton {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 12px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    padding: 18px;
+  }
+
+  .flag,
+  .logo,
+  .projectImage {
+    width: 27px;
+    height: 27px;
+  }
+  .infoBox {
+    gap: 28px;
+  }
+  .key,
+  .value {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    padding: 18px 15px;
+    padding-bottom: 35px;
+  }
+  .title {
+    padding-bottom: 6px;
+  }
+  .infoBox {
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+  .key,
+  .value,
+  .viewSshkeyButton {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .wrapper {
+    padding: 18px 12px;
+    padding-bottom: 35px;
+  }
+  .tagline {
+    font-size: 16px;
+  }
+  .key,
+  .value,
+  .viewSshkeyButton {
+    font-size: 14px;
+  }
+}

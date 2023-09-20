@@ -1,0 +1,165 @@
+.authenticationContainer {
+  border-radius: 14px;
+  border-right: 1px solid #e3e8ef;
+  background: #f1f4f9;
+  padding: 24px;
+  padding-bottom: 40px;
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.dropdownWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.label {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  padding-right: 24px;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #e3e8ef;
+  background: #fff;
+}
+.input {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 18px;
+}
+.sshKey {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.arrow,
+.infoIcon {
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + 5px);
+  left: 0;
+  min-width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--stroke, #e3e8ef);
+  background: #fff;
+  box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+}
+.dropdownItem {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 24px;
+
+  cursor: pointer;
+}
+.dropdownItem:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+.dropdownItem:last-child {
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+.dropdownItem {
+  transition: 0.3s;
+}
+.dropdownItem:hover {
+  background: rgba(84, 93, 108, 0.1);
+}
+.icon {
+  width: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+  .authenticationContainer {
+    padding: 18px;
+    padding-bottom: 35px;
+  }
+  .title {
+    padding-bottom: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 520px) {
+  .authenticationContainer {
+    padding: 12px;
+    padding-top: 18px;
+    padding-bottom: 35px;
+  }
+  .dropdown {
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+  .dropdownContainer {
+    border-radius: 10px;
+  }
+  .inputContainer {
+    padding-right: 14px;
+  }
+  .input {
+    padding: 7px 8px;
+    font-size: 16px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .dropdownItem {
+    padding: 10px 18px;
+  }
+  .sshKey {
+    font-size: 16px;
+  }
+
+  .arrow,
+  .infoIcon {
+    font-size: 18px;
+  }
+}
