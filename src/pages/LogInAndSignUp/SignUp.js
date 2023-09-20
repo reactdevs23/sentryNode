@@ -38,7 +38,7 @@ const SignUp = () => {
           <h4 className={styles.logoText}>Sentry Node</h4>
         </div>
 
-        <div action="" className={styles.container} onSubmit={handleSubmit}>
+        <form action="" className={styles.container} onSubmit={handleSubmit}>
           <h4 className={styles.heading}>
             Sign Up and start deploying api in minutes
           </h4>
@@ -93,7 +93,7 @@ const SignUp = () => {
               Privacy Policy
             </a>{" "}
           </p>
-        </div>
+        </form>
       </div>
     </section>
   );
