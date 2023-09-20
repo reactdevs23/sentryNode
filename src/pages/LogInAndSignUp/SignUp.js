@@ -3,10 +3,16 @@ import { BsCheckCircleFill } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
 import { logo } from "../../images/images";
 import styles from "./styles.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/dashboard");
+  };
   const deployInfo = [
     "Lörem ipsum menskopp parasport",
     "Trek häs har somögt Lörem ipsum menskopp ",
@@ -31,7 +37,8 @@ const SignUp = () => {
           <img src={logo} alt="#" className={styles.logo} />
           <h4 className={styles.logoText}>Sentry Node</h4>
         </div>
-        <div className={styles.container}>
+
+        <div action="" className={styles.container} onSubmit={handleSubmit}>
           <h4 className={styles.heading}>
             Sign Up and start deploying api in minutes
           </h4>
@@ -52,7 +59,9 @@ const SignUp = () => {
               />
             </div>
           </div>{" "}
-          <button className={styles.submitButton}>Submit</button>
+          <button type="submit" className={styles.submitButton}>
+            Submit
+          </button>
           <p className={styles.or}>Or </p>
           <button className={styles.continueWithButton}>
             <FcGoogle className={styles.icon} />
