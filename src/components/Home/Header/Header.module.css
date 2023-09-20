@@ -3,7 +3,6 @@
   left: 0;
   top: 0;
   width: 100%;
-
   z-index: 3;
 }
 .fixedNavbar {
@@ -26,14 +25,14 @@
   gap: 10px;
 }
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 .logoText {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -46,10 +45,14 @@
 .navItem {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: 0.3s;
+}
+.navItem:hover {
+  opacity: 0.8;
 }
 .buttonContainer {
   display: flex;
@@ -62,7 +65,7 @@
 .button {
   color: #fff;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -71,7 +74,11 @@
   outline: none;
   background: transparent;
   cursor: pointer;
-  padding: 12px 25px;
+  padding: 7px 18px;
+  transition: 0.3s;
+}
+.button:hover {
+  opacity: 0.8;
 }
 .signUpButton {
   background: #000;
@@ -87,20 +94,17 @@
 .mobileHamburger {
   display: none;
   color: #000;
-  font-size: 36px;
+  font-size: 32px;
 
   cursor: pointer;
 }
-@media only screen and (max-width: 1280px) {
-  .navItem {
-    font-size: 18px;
-  }
-  .button {
-    font-size: 16px;
-  }
-}
 
 @media only screen and (max-width: 1199px) {
+  .navItems {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
   .navItems {
     position: fixed;
     flex-direction: column;
@@ -143,11 +147,6 @@
   .mobileHamburger {
     display: block;
   }
-
-  .button {
-    font-size: 16px;
-    padding: 12px 25px;
-  }
 }
 @media only screen and (max-width: 520px) {
   .logo {
@@ -155,9 +154,6 @@
     height: 42px;
   }
   .logoText {
-    font-size: 18px;
-  }
-  .mobileHamburger {
-    font-size: 32px;
+    font-size: 1.8rem;
   }
 }

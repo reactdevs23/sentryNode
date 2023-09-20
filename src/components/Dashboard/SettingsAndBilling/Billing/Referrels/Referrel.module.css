@@ -12,7 +12,7 @@
 .heading {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -22,7 +22,7 @@
 .text {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -39,7 +39,7 @@
   border-radius: 50px;
   border: 1px solid #e3e8ef;
   background: #fff;
-  padding: 16px 23px;
+  padding: 14px 23px;
 
   max-width: 600px;
   width: 100%;
@@ -48,7 +48,7 @@
 .refferel {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -88,15 +88,8 @@
     padding: 15px;
   }
 
-  .text {
-    font-size: 16px;
-  }
   .referelContainer {
     padding: 7px 12px;
-  }
-
-  .refferel {
-    font-size: 16px;
   }
 }
 @media only screen and (max-width: 380px) {

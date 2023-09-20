@@ -10,7 +10,7 @@ const SingleProject = ({ id, image, name, apis, type, environment }) => {
         <CopyToClipboard text={id}>
           <div className={styles.idContainer}>
             <p className={[styles.id, copyId && styles.copied].join(" ")}>
-              {id}{" "}
+              {id}
               <RxCopy
                 className={styles.copyIcon}
                 onClick={() => {
@@ -18,7 +18,7 @@ const SingleProject = ({ id, image, name, apis, type, environment }) => {
                   setTimeout(() => setCopyId(false), 300);
                 }}
               />
-            </p>{" "}
+            </p>
           </div>
         </CopyToClipboard>
       </td>

@@ -8,7 +8,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -28,7 +28,7 @@
 .label {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -47,19 +47,19 @@
 .input {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   border: none;
   outline: none;
   width: 100%;
-  padding: 10px 18px;
+  padding: 8px 18px;
 }
 .sshKey {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -89,7 +89,7 @@
 .dropdownItem {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -126,8 +126,7 @@
     padding-bottom: 18px;
   }
 }
-@media only screen and (max-width: 767px) {
-}
+
 @media only screen and (max-width: 520px) {
   .authenticationContainer {
     padding: 12px;
@@ -145,17 +144,11 @@
     padding-right: 14px;
   }
   .input {
-    padding: 7px 8px;
-    font-size: 16px;
+    padding: 5px 8px;
   }
-  .label {
-    font-size: 18px;
-  }
+
   .dropdownItem {
     padding: 10px 18px;
-  }
-  .sshKey {
-    font-size: 16px;
   }
 
   .arrow,

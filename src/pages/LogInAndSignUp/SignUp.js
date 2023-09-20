@@ -40,7 +40,7 @@ const SignUp = () => {
 
         <form action="" className={styles.container} onSubmit={handleSubmit}>
           <h4 className={styles.heading}>
-            Sign Up and start deploying api in minutes
+            Sign Up and start deploying <br /> api in minutes
           </h4>
           <div className={styles.inputWrapper}>
             <label htmlFor="email" className={styles.label}>

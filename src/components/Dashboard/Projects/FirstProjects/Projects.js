@@ -28,7 +28,6 @@ const Projects = () => {
     <section className="mainContainer marginTop ">
       <div className="mainWrapper">
         <div className={[styles.wrapper].join(" ")}>
-          {" "}
           <div className={styles.topHeader}>
             <p className={styles.title}>Jeena</p>
             <button className={styles.button}>
@@ -42,7 +41,7 @@ const Projects = () => {
                 <tr className={[styles.row].join(" ")}>
                   <th className={styles.heading}>Project</th>
                   <th className={styles.heading}>Apis</th>
-                  <th className={styles.heading}>Type </th>{" "}
+                  <th className={styles.heading}>Type </th>
                   <th className={styles.heading}>Environment </th>
                   <th className={styles.heading}>ID</th>
                 </tr>

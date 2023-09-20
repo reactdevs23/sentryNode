@@ -8,7 +8,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -39,8 +39,8 @@
   gap: 16px;
 }
 .iconContainer {
-  min-width: 66px;
-  height: 66px;
+  min-width: 55px;
+  height: 55px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@
   background: #f1f4f9;
 }
 .icon {
-  font-size: 34px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 1);
 }
 .nameAndDetails {
@@ -59,7 +59,7 @@
 .name {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -67,7 +67,7 @@
 .details {
   color: #333;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -78,13 +78,13 @@
   color: #000;
   text-align: right;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .period {
-  font-size: 18px;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -102,25 +102,9 @@
   .server {
     padding: 18px 12px;
   }
-  .iconContainer {
-    min-width: 50px;
-    height: 50px;
-  }
-  .icon {
-    font-size: 28px;
-  }
+
   .serverDetails {
     gap: 10px;
-  }
-  .name,
-  .details {
-    font-size: 18px;
-  }
-  .price {
-    font-size: 20px;
-  }
-  .period {
-    font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -138,18 +122,5 @@
   .iconContainer {
     min-width: 45px;
     height: 45px;
-  }
-  .icon {
-    font-size: 24px;
-  }
-  .name,
-  .details {
-    font-size: 16px;
-  }
-  .price {
-    font-size: 18px;
-  }
-  .period {
-    font-size: 14px;
   }
 }

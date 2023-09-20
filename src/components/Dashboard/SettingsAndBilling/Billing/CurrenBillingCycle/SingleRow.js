@@ -3,7 +3,6 @@ import styles from "./CurrentBillingCycle.module.css";
 const SingleRow = ({ image, name, usage, nextInvoice, viewUsage }) => {
   return (
     <tr className={styles.row}>
-      {" "}
       <td
         className={[styles.item, styles.projectImageAndNameContainer].join(" ")}
       >

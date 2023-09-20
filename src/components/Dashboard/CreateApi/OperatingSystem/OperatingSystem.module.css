@@ -8,7 +8,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -43,7 +43,7 @@
 .name {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -63,7 +63,7 @@
 .label {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -82,11 +82,11 @@
 .version {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 10px 18px;
+  padding: 8px 15px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -96,7 +96,7 @@
 
 .arrow {
   color: #000;
-  font-size: 24px;
+  font-size: 2rem;
   cursor: pointer;
   margin-left: auto;
 }
@@ -123,7 +123,7 @@
 .dropdownItem {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -154,7 +154,7 @@
   gap: 8px;
 }
 .icon {
-  width: 24px;
+  width: 2rem;
 }
 .features {
   display: flex;
@@ -166,7 +166,7 @@
   background: #f1f4f9;
   color: #000;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -175,7 +175,7 @@
 .deploysIn {
   color: #210b76;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -201,14 +201,6 @@
     padding: 18px 12px;
   }
 
-  .name,
-  .version,
-  .dropdownItem {
-    font-size: 18px;
-  }
-  .version {
-    padding: 10px 10px;
-  }
   .dropdownItem {
     padding: 15px 20px;
   }
@@ -232,12 +224,6 @@
     padding-bottom: 30px;
   }
 
-  .name,
-  .version,
-  .dropdownItem {
-    font-size: 16px;
-  }
-
   .dropdown {
     border-radius: 10px;
     padding: 10px 10px;
@@ -252,9 +238,7 @@
     padding: 7px 8px;
     font-size: 16px;
   }
-  .label {
-    font-size: 18px;
-  }
+
   .dropdownItem {
     padding: 10px 18px;
   }

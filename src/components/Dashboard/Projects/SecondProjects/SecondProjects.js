@@ -27,7 +27,6 @@ const SecondProjects = () => {
     <section className="mainContainer marginTop">
       <div className="mainWrapper">
         <div className={[styles.wrapper].join(" ")}>
-          {" "}
           <div className={styles.topHeader}>
             <p className={styles.title}>Jeena</p>
             <button className={styles.button}>
@@ -42,7 +41,7 @@ const SecondProjects = () => {
                   <th className={styles.heading}>ID</th>
                   <th className={styles.heading}>Project</th>
                   <th className={styles.heading}>Apis</th>
-                  <th className={styles.heading}>Type </th>{" "}
+                  <th className={styles.heading}>Type </th>
                   <th className={styles.heading}>Environment </th>
                 </tr>
                 {projects.map((project, index) => (

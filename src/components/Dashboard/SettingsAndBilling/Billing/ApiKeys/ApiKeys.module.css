@@ -22,7 +22,7 @@
 .button {
   color: #fff;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -42,9 +42,9 @@
   font-size: 20px;
 }
 .title {
-  color: var(--heading, #000);
+  color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -52,7 +52,7 @@
 .text {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -82,7 +82,7 @@
 .item {
   color: #000;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -93,7 +93,7 @@
 .viewUsage {
   color: #000;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
@@ -131,14 +131,6 @@
   }
   .button {
     padding: 10px 15px;
-    font-size: 16px;
-  }
-  .text,
-  .heading,
-  .item,
-  .viewUsage,
-  .status {
-    font-size: 16px;
   }
 
   .item:first-child,

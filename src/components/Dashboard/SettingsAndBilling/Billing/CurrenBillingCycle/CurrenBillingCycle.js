@@ -39,7 +39,7 @@ const CurrenBillingCycle = () => {
               <th className={styles.heading}>Project</th>
               <th className={styles.heading}>Usage</th>
               <th className={styles.heading}>Next Invoice</th>
-              <th className={styles.heading}></th>{" "}
+              <th className={styles.heading}></th>
             </tr>
             {billingCyclesData.map((el, index) => (
               <SingleRow {...el} key={index} />

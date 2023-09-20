@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  max-width: 1600px;
+  max-width: 1400px;
   width: 95%;
   margin: 0 auto;
   padding: 50px 0;
@@ -39,7 +39,7 @@
   color: #000;
   text-align: center;
   font-family: Inter;
-  font-size: 50px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 122.523%;
@@ -48,7 +48,7 @@
   color: #333;
   text-align: center;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 152.523%;
@@ -69,8 +69,8 @@
   padding: 40px 30px;
 }
 .iconContainer {
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   background: #f1f4f9;
   display: flex;
@@ -79,12 +79,12 @@
   margin-bottom: 5px;
 }
 .icon {
-  width: 36px;
+  width: 26px;
 }
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 30px;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 122.523%;
@@ -92,55 +92,27 @@
 .info {
   color: var(--text, #333);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 152.523%; /* 38.131px */
 }
 
 @media only screen and (max-width: 1380px) {
-  .heading {
-    font-size: 45px;
-  }
   .keyFeatures {
     gap: 15px;
   }
   .keyFeature {
     padding: 30px 20px;
   }
-  .iconContainer {
-    width: 60px;
-    height: 60px;
-  }
-  .icon {
-    width: 28px;
-  }
-  .title {
-    font-size: 28px;
-  }
-  .tagline {
-    font-size: 24px;
-  }
-  .info {
-    font-size: 18px;
-  }
 }
 @media only screen and (max-width: 1199px) {
   .heading {
-    font-size: 40px;
-  }
-  .tagline {
-    font-size: 22px;
-  }
-  .keyFeatures {
-    gap: 12px;
-  }
-  .title {
-    font-size: 22px;
+    font-size: 3.3rem;
   }
 
-  .info {
-    font-size: 16px;
+  .keyFeatures {
+    gap: 12px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -157,26 +129,12 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .heading {
-    font-size: 36px;
-  }
-  .tagline {
-    font-size: 20px;
-  }
-
   .keyFeatures {
     grid-template-columns: 1fr;
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
     gap: 30px;
-  }
-  .iconContainer {
-    width: 55px;
-    height: 55px;
-  }
-  .icon {
-    width: 26px;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -187,9 +145,6 @@
     display: none;
   }
   .heading {
-    font-size: 32px;
-  }
-  .tagline {
-    font-size: 18px;
+    font-size: 3rem;
   }
 }

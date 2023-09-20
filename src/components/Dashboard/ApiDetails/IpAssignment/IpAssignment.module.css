@@ -8,7 +8,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -31,10 +31,13 @@
 .key {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.key {
+  font-size: 1.6rem;
 }
 .id {
   display: flex;
@@ -45,7 +48,7 @@
   color: #000;
   text-align: right;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -77,7 +80,7 @@
 .status {
   color: #0b7656;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -106,13 +109,6 @@
     padding-top: 24px;
     padding-bottom: 0;
   }
-  .tagline {
-    font-size: 18px;
-  }
-  .key,
-  .value {
-    font-size: 16px;
-  }
 }
 @media only screen and (max-width: 350px) {
   .wrapper {
@@ -125,6 +121,6 @@
   .key,
   .status,
   .value {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }

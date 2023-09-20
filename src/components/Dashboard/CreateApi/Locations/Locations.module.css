@@ -8,7 +8,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -35,15 +35,15 @@
 }
 
 .flag {
-  width: 39px;
-  height: 39px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 
 .name {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -63,10 +63,6 @@
   .location {
     padding: 18px 12px;
   }
-
-  .name {
-    font-size: 18px;
-  }
 }
 @media only screen and (max-width: 767px) {
   .locations {
@@ -83,9 +79,5 @@
     padding: 12px;
     padding-top: 18px;
     padding-bottom: 30px;
-  }
-
-  .name {
-    font-size: 16px;
   }
 }

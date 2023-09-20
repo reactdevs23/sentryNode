@@ -14,10 +14,10 @@ const SingleProject = ({ id, image, name, apis, type, environment }) => {
           <p className={styles.name}>{name}</p>
         </div>
       </td>
-      <td className={styles.item}>{apis}</td>{" "}
+      <td className={styles.item}>{apis}</td>
       <td className={styles.item}>
         <p className={styles.type}>{type}</p>
-      </td>{" "}
+      </td>
       <td className={styles.item}>
         <div className={styles.environmentContainer}>
           <p className={styles.environment}>{environment}</p>
@@ -27,7 +27,7 @@ const SingleProject = ({ id, image, name, apis, type, environment }) => {
         <CopyToClipboard text={id}>
           <div className={styles.idContainer}>
             <p className={[styles.id, copyId && styles.copied].join(" ")}>
-              {id}{" "}
+              {id}
               <RxCopy
                 className={styles.copyIcon}
                 onClick={() => {
@@ -35,7 +35,7 @@ const SingleProject = ({ id, image, name, apis, type, environment }) => {
                   setTimeout(() => setCopyId(false), 300);
                 }}
               />
-            </p>{" "}
+            </p>
           </div>
         </CopyToClipboard>
       </td>

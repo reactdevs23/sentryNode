@@ -20,7 +20,7 @@
 .heading {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -31,7 +31,7 @@
 .text {
   color: #000;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -75,12 +75,12 @@
 .input {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   width: 100%;
-  padding: 10px 12px;
+  padding: 6px 12px;
 
   border: none;
   outline: none;
@@ -91,11 +91,11 @@
 .dropDownItem {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 10px 12px;
+  padding: 7px 12px;
 }
 .input,
 .taxId,
@@ -107,13 +107,13 @@
 }
 .arrow {
   color: #000;
-  font-size: 24px;
+  font-size: 2rem;
   cursor: pointer;
 }
 .button {
   color: #fff;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -129,7 +129,7 @@
   margin-left: auto;
 }
 .applyButton {
-  font-size: 18px;
+  font-size: 1.4rem;
   padding: 8px 15px;
   padding-bottom: 10px;
   min-height: 100%;
@@ -180,20 +180,7 @@
   .textWrapper {
     gap: 10px;
   }
-  .label,
-  .subHeading {
-    font-size: 18px;
-  }
-  .text {
-    font-size: 16px;
-  }
-  .button,
-  .taxId,
-  .input,
-  .selectIdType,
-  .dropDownItem {
-    font-size: 16px;
-  }
+
   .taxId,
   .input {
     padding: 7px 12px;

@@ -1,6 +1,5 @@
 .wrapper {
-  border-radius: 50px;
-
+  border-radius: 40px;
   background: #f1f4f9;
   padding: 50px;
   display: flex;
@@ -40,7 +39,7 @@
   color: #000;
   text-align: center;
   font-family: Inter;
-  font-size: 50px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 122.523%;
@@ -50,7 +49,7 @@
   color: #333;
   text-align: center;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 152.523%;
@@ -77,7 +76,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 40px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: 122.523%;
@@ -86,7 +85,7 @@
 .facility {
   color: var(--text, #333);
   font-family: Inter;
-  font-size: 22px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 152.523%; /* 38.131px */
@@ -100,14 +99,14 @@
 }
 .circleCheck {
   color: #2bd081;
-  font-size: 30px;
-  min-width: 25px;
+  font-size: 2.4rem;
+  min-width: 2.2rem;
   margin-top: 1px;
 }
 .rightArrow {
-  font-size: 24px;
-  min-width: 20px;
-  margin-top: 5px;
+  font-size: 2.2rem;
+  min-width: 1.8rem;
+  margin-top: 2px;
   color: #000;
 }
 .facility {
@@ -125,43 +124,14 @@
 }
 
 @media only screen and (max-width: 1380px) {
-  .wrapper {
-    padding: 30px;
-  }
-  .heading {
-    font-size: 45px;
-  }
-  .title {
-    font-size: 36px;
-  }
-  .tagline {
-    font-size: 24px;
-  }
-  .info,
-  .facility {
-    font-size: 20px;
-  }
   .rightArrow {
     margin-top: 4px;
     font-size: 22px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .wrapper {
-    padding: 30px 15px;
-  }
   .heading {
-    font-size: 40px;
-  }
-  .title {
-    font-size: 30px;
-  }
-  .tagline {
-    font-size: 22px;
-  }
-  .info,
-  .facility {
-    font-size: 19px;
+    font-size: 3.3rem;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -191,28 +161,21 @@
   .wrapper {
     padding: 30px;
   }
-  .heading {
-    font-size: 36px;
-  }
-  .tagline {
-    font-size: 20px;
-  }
+
   .br {
     display: none;
   }
-  .title {
-    font-size: 28px;
-  }
+
   .circleCheck,
   .rightArrow {
-    font-size: 24px;
+    font-size: 2rem;
   }
-  .info,
-  .facility {
-    font-size: 16px;
-  }
-  .rightArrow {
+  .circleCheck {
     margin-top: 2px;
+  }
+
+  .rightArrow {
+    margin-top: 3px;
     font-size: 22px;
   }
 }
@@ -221,15 +184,12 @@
     padding: 30px 15px;
     border-radius: 30px;
   }
-
   .heading {
-    font-size: 32px;
+    font-size: 3rem;
   }
+
   .title {
-    font-size: 24px;
-  }
-  .tagline {
-    font-size: 18px;
+    font-size: 2.4rem;
   }
   .rightArrow {
     margin-top: 3px;

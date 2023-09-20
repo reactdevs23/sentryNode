@@ -18,7 +18,7 @@
 .heading {
   color: #000;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -41,7 +41,7 @@
 .link {
   color: #333;
   font-family: Inter;
-  font-size: 22px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
@@ -64,8 +64,8 @@
   gap: 12px;
 }
 .iconContainer {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -74,36 +74,10 @@
   cursor: pointer;
 }
 .icon {
-  font-size: 24px;
+  font-size: 1.8rem;
   color: #000;
 }
-@media only screen and (max-width: 1380px) {
-  .link {
-    font-size: 20px;
-  }
-  .iconContainer {
-    width: 45px;
-    height: 45px;
-  }
-  .icon {
-    font-size: 22px;
-  }
-}
-@media only screen and (max-width: 1280px) {
-  .heading {
-    font-size: 22px;
-  }
-  .link {
-    font-size: 18px;
-  }
-  .iconContainer {
-    width: 40px;
-    height: 40px;
-  }
-  .icon {
-    font-size: 18px;
-  }
-}
+
 @media only screen and (max-width: 1199px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
@@ -135,18 +109,5 @@
 @media only screen and (max-width: 520px) {
   .wrapper {
     padding: 50px 10px;
-  }
-  .heading {
-    font-size: 20px;
-  }
-  .link {
-    font-size: 17px;
-  }
-  .iconContainer {
-    width: 36px;
-    height: 36px;
-  }
-  .icon {
-    font-size: 16px;
   }
 }

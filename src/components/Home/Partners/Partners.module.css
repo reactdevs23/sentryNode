@@ -11,7 +11,7 @@
 }
 .marquee {
   display: flex;
-  width: 1300px;
+  width: 1260px;
   overflow: hidden;
   user-select: none;
 
@@ -60,5 +60,11 @@
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .imageGroup {
+    width: 15rem;
   }
 }

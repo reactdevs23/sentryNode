@@ -11,7 +11,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -19,7 +19,7 @@
 .button {
   color: #fff;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -35,7 +35,7 @@
 }
 .addIcon {
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
 }
 .tableContainer {
   overflow-x: auto;
@@ -55,12 +55,12 @@
 .item {
   color: #000;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-align: left;
-  padding: 14px 30px;
+  padding: 12px 30px;
   white-space: nowrap;
 }
 .heading {
@@ -90,7 +90,7 @@
 .copyIcon {
   color: #000;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .copied::after {
   content: "Copied";
@@ -111,9 +111,9 @@
   gap: 8px;
 }
 .projectImage {
-  width: 40px;
-  height: 40px;
-  border-radius: 15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
 }
 .environmentContainer {
   display: flex;
@@ -122,7 +122,7 @@
 .environment {
   color: #0b7656;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -159,17 +159,7 @@
   .topHeader {
     padding: 12px 15px;
   }
-  .title {
-    font-size: 20px;
-  }
-  .button {
-    padding: 10px 15px;
-    font-size: 16px;
-  }
-  .heading,
-  .item {
-    font-size: 16px;
-  }
+
   .projectImage {
     width: 30px;
     height: 30px;

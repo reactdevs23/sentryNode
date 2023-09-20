@@ -8,10 +8,11 @@ const StartDeploying = () => {
       <div className={styles.wrapper}>
         <div className={styles.textContainer}>
           <h2 className={styles.title}>
-            Get Started Now and Deploy APIs with Ease!
+            Get Started Now and <br /> Deploy APIs with Ease!
           </h2>
           <p className={styles.tagline}>
-            Lörem ipsum deling exortad. Volig pore räckviddsångest och parament.
+            Lörem ipsum deling exortad. Volig pore <br /> räckviddsångest och
+            parament.
           </p>
           <button className={styles.button}>Start Deploying</button>
         </div>

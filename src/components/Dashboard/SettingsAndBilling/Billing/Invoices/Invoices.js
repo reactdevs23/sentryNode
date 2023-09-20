@@ -32,7 +32,7 @@ const Invoices = () => {
               <th className={styles.heading}>Project</th>
               <th className={styles.heading}>Total</th>
               <th className={styles.heading}>Status</th>
-              <th className={styles.heading}></th>{" "}
+              <th className={styles.heading}></th>
             </tr>
             {invoicesData.map((el, index) => (
               <SingleInvoice {...el} key={index} />

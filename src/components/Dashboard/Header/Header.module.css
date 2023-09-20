@@ -1,8 +1,8 @@
 .headerWrapper {
   position: fixed;
   top: 0;
-  left: 350px;
-  width: calc(100% - 350px);
+  left: 320px;
+  width: calc(100% - 320px);
   z-index: 2;
   border-bottom: 1px solid var(--stroke, #e3e8ef);
   background: #fff;
@@ -31,7 +31,7 @@
 .input {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -42,7 +42,7 @@
   background: transparent;
 }
 .searchIcon {
-  font-size: 24px;
+  font-size: 2rem;
   color: rgba(137, 136, 136, 1);
 }
 .hamburgerAndUsercontainer {
@@ -58,14 +58,14 @@
   cursor: pointer;
 }
 .userImage {
-  width: 43px;
-  height: 43px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 .userName {
   color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -92,7 +92,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.4rem;
   line-height: 120%;
   background: transparent;
   color: #6a6d95;
@@ -123,10 +123,10 @@
     left: 0;
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1280px) {
   .hamburger {
     display: block;
-    font-size: 36px;
+    font-size: 28px;
 
     cursor: pointer;
   }
@@ -144,14 +144,9 @@
     padding: 3px 15px;
     margin: 0 auto;
   }
-  .input {
-    font-size: 16px;
-  }
+
   .hamburgerAndUsercontainer {
     width: 100%;
     justify-content: space-between;
-  }
-  .hamburger {
-    font-size: 34px;
   }
 }

@@ -13,7 +13,7 @@ import Settigs from "../../components/Dashboard/SettingsAndBilling/Billing/Setti
 const SettingsAndBilling = () => {
   const [sidebar, setSidebar] = useState(false);
   return (
-    <div className="mainContainer marginTop maxWidth">
+    <div className="mainContainer marginTop ">
       <div className={styles.wrapper}>
         {sidebar ? (
           <MdOutlineClose

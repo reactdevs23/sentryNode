@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  max-width: 1600px;
+  max-width: 1400px;
   width: 95%;
   margin: 0 auto;
   position: relative;
@@ -40,7 +40,7 @@
   color: #000;
   text-align: center;
   font-family: Inter;
-  font-size: 50px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 122.523%;
@@ -49,7 +49,7 @@
   color: #333;
   text-align: center;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 152.523%;
@@ -81,7 +81,7 @@
 .title {
   color: #000;
   font-family: Inter;
-  font-size: 34px;
+  font-size: 2.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 122.523%;
@@ -89,9 +89,9 @@
 }
 .info,
 .learnMore {
-  color: var(--text, #333);
+  color: #333;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 152.523%; /* 38.131px */
@@ -107,67 +107,44 @@
   text-decoration: underline;
 }
 .iconContainer {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: #f1f4f9;
+  width: 30px;
+  height: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
-
-  cursor: pointer;
+  justify-content: center;
+  background: #f1f4f9;
+  border-radius: 50%;
+  margin-top: 2px;
 }
 .icon {
-  font-size: 20px;
+  font-size: 18px;
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1280px) {
   .title {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 1380px) {
-  .heading {
-    font-size: 45px;
-  }
-  .ourExpertise {
-    gap: 15px;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-  .tagline {
-    font-size: 24px;
-  }
-  .info {
-    font-size: 18px;
+    font-size: 2.4rem;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .heading {
-    font-size: 40px;
-  }
-  .tagline {
-    font-size: 22px;
-  }
   .ourExpertise {
-    gap: 12px;
+    gap: 10px;
+  }
+
+  .heading {
+    font-size: 3.3rem;
   }
   .title {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
-  .iconContainer {
-    width: 30px;
-    height: 30px;
-  }
-  .icon {
-    font-size: 18px;
-  }
-  .info {
-    font-size: 16px;
+}
+@media only screen and (max-width: 1024px) {
+  .expertise {
+    padding: 18px;
   }
 }
 @media only screen and (max-width: 991px) {
+  .expertise {
+    padding: 20px;
+  }
   .ourExpertise {
     grid-template-columns: 1fr 1fr;
     gap: 30px 18px;
@@ -179,13 +156,6 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .heading {
-    font-size: 36px;
-  }
-  .tagline {
-    font-size: 20px;
-  }
-
   .ourExpertise {
     grid-template-columns: 1fr;
     max-width: 600px;
@@ -202,9 +172,9 @@
     display: none;
   }
   .heading {
-    font-size: 32px;
+    font-size: 3rem;
   }
-  .tagline {
-    font-size: 18px;
+  .title {
+    font-size: 2.4rem;
   }
 }
