@@ -97,7 +97,13 @@
   .teamContainer {
     padding: 25px 24px;
   }
-
+  .navItem {
+    font-size: 1.4rem;
+    padding: 10px 20px;
+  }
+  .navIcon {
+    font-size: 2rem;
+  }
   .projects {
     padding-bottom: 10px;
   }

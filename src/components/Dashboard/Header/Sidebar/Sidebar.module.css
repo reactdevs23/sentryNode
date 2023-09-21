@@ -172,35 +172,37 @@
   .sidebar {
     width: 270px;
   }
-  .teamContainer {
-    padding: 25px 24px;
-  }
-  /* .logo {
-    width: 46px;
-    height: 46px;
-  } */
-  /* .teamName {
-    font-size: 16px;
-  }
+
   .name {
-    font-size: 20px;
-  } */
+    font-size: 18px;
+  }
   .navItems,
-  .navHeader {
-    padding: 20px 24px;
+  .navHeader,
+  .supportAndDocumentation,
+  .teamContainer {
+    padding: 18px 24px;
   }
   .projects {
     padding-bottom: 10px;
   }
+  .navItems,
+  .supportAndDocumentation {
+    gap: 10px;
+    /* padding: 25px 18px; */
+  }
   .navItem,
   .project {
-    /* font-size: 16px; */
-    padding: 13px 20px;
+    font-size: 1.4rem;
+    padding: 12px 20px;
+  }
+  .project {
+    padding: 8px 20px;
   }
   .projectImge {
     width: 36px;
     height: 36px;
   }
+
   .support,
   .documentation {
     font-size: 16px;
